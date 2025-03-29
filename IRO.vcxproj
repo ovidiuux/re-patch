@@ -153,9 +153,11 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ARM64.cpp" />
     <ClCompile Include="IRO.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ARM.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
